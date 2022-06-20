@@ -1,6 +1,7 @@
 <html lang="en">
 
-<head>
+<head>  
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="./css/header.css">
@@ -13,8 +14,51 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/20bfb18169.js" crossorigin="anonymous"></script>
+
     <title>Document</title>
 </head>
+<style>
+
+.footer {
+  /* position:fixed; */
+  bottom:0;
+  left:0;
+  width:100%;
+  height: 90px;
+  /* background-color: #D0DAEE; */
+  padding-left: 50px;
+  padding-right: 50%;
+}
+
+.footer .line-div{
+    height: 5px;
+    width: 100%;
+    background-color: rgba(229, 211, 106, 0.805);
+}
+.footer a{
+    font-size: 20px;
+    padding-left: 20px;
+    color: black;
+}
+@media only screen and (max-width: 500px) {
+    .footer{
+        padding-right: 30%;
+    }
+  }
+  @media only screen and (max-width: 310px) {
+    .footer{
+        padding-right: 20%;
+    }
+  }
+  @media only screen and (max-width: 271px) {
+    .footer{
+        padding-right: 10%;
+    }
+  }
+
+
+</style>
 
 <body class="orange lighten-5">
 
@@ -33,7 +77,21 @@
                 href="https://docs.google.com/document/d/1LG8jfoolnVQXCR4XPPK8zjM2EVLnSIF42sz-YDl_zck/edit?usp=sharing">Here</a>
         </p>
     </div>
-
+    <div id="" class="left-align about" >
+        <p>Check out my linTree: <a class="orange-text"
+                href="https://linktr.ee/SRKeshav">Here</a>
+        </p>
+    </div>
+    <div class="footer ">
+        <div class="line-div">
+        </div>
+        <br>
+        <a href="https://www.instagram.com/sr.keshav/"><i class='fab fa-instagram'></i></a>
+        <a href="https://twitter.com/Sr_keshav"><i class='fab fa-twitter'></i></a>
+        <a href="https://github.com/KESHAVBERG"><i class='fab fa-github'></i></a>
+        <a href="https://github.com/KESHAVBERG"><i class='fab fa-medium'></i></a>
+    </div>
+    
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
