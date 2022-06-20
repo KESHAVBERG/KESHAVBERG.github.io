@@ -1,0 +1,35 @@
+
+#about p{
+    font-size: 25px;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+
+#about{
+    padding-left: 50px;
+    padding-right: 400px;
+}
+
+@media only screen and (max-width: 790px) {
+    #about{
+        padding-right: 100px;
+    }
+  }
+
+  @media only screen and (max-width: 420px) {
+    #about{
+        padding-right: 60px;
+    }
+  }
+
+  @media only screen and (max-width: 317px) {
+    #about{
+        padding-right: 40px;
+    }
+  }
+
+  @media only screen and (max-width: 1162px) {
+    #about{
+        padding-right: 40px;
+    }
+  }
